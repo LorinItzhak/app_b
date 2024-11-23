@@ -1,0 +1,14 @@
+
+###
+GET http://localhost:3001/posts
+
+###
+POST  http://localhost:3001/posts
+
+### 
+DELETE   http://localhost:3001/posts
+
+### 
+put  http://localhost:3001/posts
+
+
