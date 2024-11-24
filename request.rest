@@ -1,14 +1,20 @@
 
 ###
-GET http://localhost:3001/posts
+GET http://localhost:3004/posts
 
 ###
-POST  http://localhost:3001/posts
+GET http://localhost:3004/posts/123
 
-### 
-DELETE   http://localhost:3001/posts
-
-### 
-put  http://localhost:3001/posts
+###
+GET http://localhost:3004/posts?owner=Lorin2
 
 
+###
+POST  http://localhost:3004/posts
+Content-Type: application/json
+
+{
+    "title": "my first post",
+    "content":"This is my second post",
+    "owner":"Lorin2"
+}
