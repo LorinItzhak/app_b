@@ -18,3 +18,13 @@ Content-Type: application/json
     "content":"This is my second post",
     "owner":"Lorin2"
 }
+
+###
+PUT  http://localhost:3004/posts/67433672c31def3b7fa766ad
+Content-Type: application/json
+
+{
+    "title": "My update post",
+    "content": "This is my update post",
+    "owner": "user1234"
+}
